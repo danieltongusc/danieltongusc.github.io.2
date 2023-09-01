@@ -73,12 +73,16 @@ main {
 }
 
 .dual-image-container {
-    width: 700px;
+    width: 720px;
     margin-bottom: 50px;
     display: flex;
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: 0;
+}
+
+.dual-image-container:last-child {
+    margin-bottom: 13px;
 }
 
 .image-container {
@@ -90,19 +94,20 @@ main {
 }
 
 .image-container:last-child {
-    margin-right: 0px;
+    margin-bottom: -10px;
 }
 
 img {
     width: 100vw;
     max-width: 100%;
     height: auto;
+    margin-bottom: 0px;
 
 }
 
 h3 {
     color: #083cc4;
-    margin-top: 50px;
+    margin-top: 35px;
     font-size: 15px;
     font-family: "Times New Roman", serif;
 }
